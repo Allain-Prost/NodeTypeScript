@@ -1,0 +1,12 @@
+1. npm install -D typescript
+2. npm install @types/node
+3. Criar a estrutura inicial 
+    3.1 Criar a pasta "scr"
+    3.2 Criar a pasta "test" - dentro da "src"
+4. Criar o arquivo "tsconfig.json"
+    4.1 Importar algumas configs "padrão"
+5. Para abreviar os path nos imports é necessário instalar a depedência:
+    5.1 npm install module-alias - (vamos precisar para usar em produção)
+    5.2 npm install -D @types/module-alias
+
+OBS/DICA: Podemos sempre instalar @types/... no modo de -D (dev) porque não vamos usar em produção
